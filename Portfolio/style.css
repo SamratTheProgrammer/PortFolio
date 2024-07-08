@@ -638,8 +638,15 @@ span{
     }
     .contact form .input-box input{
         width: 100%;
-
     }
+    header.header{
+        max-width: 430px;
+    }
+    .overlay{
+        width: 100%;
+    }
+
+    
 }
 @media (max-width: 365px){
     .about-img img{
@@ -651,6 +658,12 @@ span{
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+    header.header{
+        max-width: 360px;
+    }
+    .overlay{
+        width: 100%;
     }
     
 }
@@ -666,8 +679,8 @@ input:-webkit-autofill:active {
 input:autofill{
     filter: none;
     color: #ffffff !important; 
-    background-color: #1f1f3a !important; 
+    background-color: #1f1f3a !important;
 }
 input:-ms-input-placeholder {
-    color: #ffffff !important; 
+    color: #ffffff !important;
 }
