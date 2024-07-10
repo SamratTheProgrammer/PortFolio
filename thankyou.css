@@ -21,7 +21,7 @@ section{
 }
 .home{
     display: flex;
-    margin-top: 10rem;
+    margin-top: 10rem; 
     margin-left: 5rem;
     align-items: center;
 }
@@ -123,18 +123,13 @@ section{
         margin-left: 20rem;
     }
 }
-@media(max-width: 365px){
-    .overlay{
-        width: 100%;
-    }
+
+@media(max-width: 465px){
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
     .home{
+        margin-left: 1rem;
         position: fixed;
-        margin-right: 10rem;
-    }
-    .home-content{
-        margin-left: -19rem;
     }
 }
