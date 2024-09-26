@@ -21,8 +21,6 @@
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
 }
-
-
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -96,7 +94,6 @@ body{
 section{
     min-height: 100vh;
     padding: 10rem 7% 2rem;
-
 }
 .home{
     display: flex;
